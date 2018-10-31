@@ -1,0 +1,76 @@
+.bienvenidos{
+    background-image: url(../images/cat.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    overflow: hidden;
+}
+.fixed-top{
+    background-color: rgba(0, 0, 0, 0.616);
+}
+.navbar-light .navbar-brand{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+}
+.nav-item:hover{
+    transition: all .3s ease;
+    background-color: coral;
+}
+.col-sm {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    text-align: center;
+    background-color: red;
+    padding: 0;
+    margin-right: 2%;
+}
+.texto-bienvenido{
+    color:white;
+    margin-top: 6rem;
+}
+.btn-primary{
+    background-color: coral;
+    border-color: coral;
+    font-weight: 400;
+    transition: all .3s ease;
+    text-transform: uppercase;
+}
+.btn-primary:hover{
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    border-color:black;
+}
+/*# sourceMappingURL=estilos.css.map */
+
+/*estilos quienesomso*/
+.quienes-somos{
+    background-color:coral;
+    color: white;
+}
+.circulo{
+    /* width: 181; */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.fas {
+    color:coral;
+    font-size: 6rem;
+}
+.servicios h3{
+    font-weight: bold;
+}
+/*Estilos ultimos proyectos*/
+.ultimos-proyectos{
+    background-color: #424141;
+    color:#fff;
+}
