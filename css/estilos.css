@@ -74,3 +74,19 @@
     background-color: #424141;
     color:#fff;
 }
+.col-md-3 img{
+    width: 200px;
+    height: 200px;
+}
+.imagenrect{
+    width: 100%;
+}
+img{
+    transition: all .3s ease;
+}
+.titulo{
+    border-bottom:2.5px solid #a59f9f;
+}
+.imagenrect img:hover{
+    transform: scale(1.5);
+}
