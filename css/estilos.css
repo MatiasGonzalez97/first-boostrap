@@ -21,7 +21,7 @@
     transition: all .3s ease;
     background-color: coral;
 }
-.col-sm {
+/* .col-sm {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
     -ms-flex-positive: 1;
@@ -31,7 +31,7 @@
     background-color: red;
     padding: 0;
     margin-right: 2%;
-}
+} */
 .texto-bienvenido{
     color:white;
     margin-top: 6rem;
@@ -88,5 +88,40 @@ img{
     border-bottom:2.5px solid #a59f9f;
 }
 .imagenrect img:hover{
-    transform: scale(1.5);
+    transform: scale(1.2);
+}
+.estilos-pie{
+    background-color: coral;
+    color: #fff;
+    margin:0;
+     padding: 0;
+    /* position: fixed; */
+    /* min-height: 150px; */
+}
+.ocultar{
+    display: none;
+}
+.naranja{
+    border-color: coral;
+    color: coral;
+}
+.card{
+    width: 100%;
+}
+
+.estilos_card{
+    display: flex;
+}
+
+
+.banner-logo{
+    height: 30vh;
+    overflow: hidden;
+}
+.iniciar{
+    margin-bottom: 30vh;
+}
+.card{
+    width: 45%;
+    margin-bottom: 3em;
 }
